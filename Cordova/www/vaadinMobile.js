@@ -19,6 +19,7 @@
  * margin at top.
  *
  * @author Manuel Carrasco Moñino
+ * @modifier Henrik Nyman
  */
 (function() {
     // Insert an animated div
@@ -76,6 +77,12 @@
         // when vaadin app is loaded, it sends to the parent window a ready message
         window.addEventListener('message', function(ev) {
             if (ev.data == 'touchkit-ready'){
+                loading.style.display = 'none';
+                iframe.style.opacity = 1;
+                iframe.style.webkitTransform = 'scale(1)';
+                resume();
+            } else if (ev.data == 'vaadin-ready') {
+            	// If we do not use touchkit send a message from the vaadin app
                 loading.style.display = 'none';
                 iframe.style.opacity = 1;
                 iframe.style.webkitTransform = 'scale(1)';
