@@ -1,7 +1,7 @@
 package com.example.vaadincordova;
 
-import com.example.vaadincordova.widgetset.client.scanner.ScannerServerRpc;
-import com.example.vaadincordova.widgetset.client.scanner.ScannerState;
+import com.example.vaadincordova.client.scanner.ScannerServerRpc;
+import com.example.vaadincordova.client.scanner.ScannerState;
 
 public class Scanner extends com.vaadin.ui.AbstractComponent {
 

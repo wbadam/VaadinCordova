@@ -1,6 +1,6 @@
-package com.example.vaadincordova.widgetset.client.scanner;
+package com.example.vaadincordova.client.scanner;
 
-import com.example.vaadincordova.widgetset.client.scanner.ScannerConnector.ScanHandler;
+import com.example.vaadincordova.client.scanner.ScannerConnector.ScanHandler;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.ui.Label;
@@ -50,7 +50,7 @@ public class ScannerWidget extends VerticalPanel {
     private native void addEventListenerToWindow(ScannerWidget scannerWidget)
     /*-{
         $wnd.addEventListener('message', function (e) {
-          $entry(scannerWidget.@com.example.vaadincordova.widgetset.client.scanner.ScannerWidget::messageReceived(Ljava/lang/String;)(e.data));
+          $entry(scannerWidget.@com.example.vaadincordova.client.scanner.ScannerWidget::messageReceived(Ljava/lang/String;)(e.data));
         }, false);
     }-*/;
 

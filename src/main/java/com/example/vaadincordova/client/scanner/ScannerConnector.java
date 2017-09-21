@@ -1,4 +1,4 @@
-package com.example.vaadincordova.widgetset.client.scanner;
+package com.example.vaadincordova.client.scanner;
 
 import com.example.vaadincordova.Scanner;
 import com.google.gwt.core.client.GWT;

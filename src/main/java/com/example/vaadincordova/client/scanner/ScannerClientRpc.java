@@ -1,4 +1,4 @@
-package com.example.vaadincordova.widgetset.client.scanner;
+package com.example.vaadincordova.client.scanner;
 
 import com.vaadin.shared.communication.ClientRpc;
 

@@ -1,4 +1,4 @@
-package com.example.vaadincordova.widgetset.client.scanner;
+package com.example.vaadincordova.client.scanner;
 
 public class ScannerState extends com.vaadin.shared.AbstractComponentState {
 
